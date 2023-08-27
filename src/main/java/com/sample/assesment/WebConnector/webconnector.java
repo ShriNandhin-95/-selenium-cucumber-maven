@@ -40,7 +40,7 @@ public class webconnector<V> {
 
   public webconnector() {
     try {
-      prop.load(new FileInputStream("./src/test/config/application.properties"));
+      prop.load(new FileInputStream("./src/test/resources/config/application.properties"));
     } catch (IOException e) {
       e.printStackTrace();
     }
@@ -55,7 +55,7 @@ public class webconnector<V> {
   }
 
   public WebDriver createLocalDriver() {
-    DriverType driverType = DriverType.valueOf(getProperty(ApplicationConstants.BROWSER));
+    DriverType driverType = DriverType.valueOf(getProperty(ApplicationConstants.HOMEPAGE_BROWSER));
     switch (driverType) {
       case CHROME:
         WebDriverManager.chromedriver().setup();
