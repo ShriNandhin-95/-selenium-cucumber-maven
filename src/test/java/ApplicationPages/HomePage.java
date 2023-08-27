@@ -51,7 +51,7 @@ public class HomePage {
   }
 
   public void goToHomePage() {
-    driver.get(wc.getProperty(ApplicationConstants.URL));
+    driver.get(wc.getProperty(ApplicationConstants.HOMEPAGE_URL));
 
     wc.setImplicitWaitTimeout(Duration.ofSeconds(40));
     wc.setPageLoadTimeOut(Duration.ofSeconds(40));

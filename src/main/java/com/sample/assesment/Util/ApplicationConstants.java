@@ -2,8 +2,8 @@ package com.sample.assesment.Util;
 
 public class ApplicationConstants {
 
-  public static final String URL = "homepage.url";
-  public static final String BROWSER = "homepage.browser";
+  public static final String HOMEPAGE_URL = "homepage.url";
+  public static final String HOMEPAGE_BROWSER = "homepage.browser";
   public static final String PAGELOAD = "PageLoad";
   public static final String CLICKABLE = "Clickable";
   public static final String PRESENCE = "Presence";
