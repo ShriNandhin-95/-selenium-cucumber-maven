@@ -55,7 +55,7 @@ public class webconnector<V> {
   }
 
   public WebDriver createLocalDriver() {
-    DriverType driverType = DriverType.valueOf(getProperty(ApplicationConstants.MERCARI_BROWSER));
+    DriverType driverType = DriverType.valueOf(getProperty(ApplicationConstants.BROWSER));
     switch (driverType) {
       case CHROME:
         WebDriverManager.chromedriver().setup();

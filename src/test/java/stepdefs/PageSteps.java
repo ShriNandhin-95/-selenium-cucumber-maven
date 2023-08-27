@@ -1,6 +1,6 @@
 package stepdefs;
 
-import ApplicationPages.MercariPage;
+import ApplicationPages.HomePage;
 import com.sample.assesment.WebConnector.webconnector;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
@@ -9,13 +9,13 @@ import io.cucumber.java.en.When;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-public class MercariPageSteps extends webconnector {
+public class PageSteps extends webconnector {
 
-  private final MercariPage mercariPage;
+  private final HomePage mercariPage;
   private String scenDesc;
 
-  public MercariPageSteps() {
-    this.mercariPage = new MercariPage();
+  public PageSteps() {
+    this.mercariPage = new HomePage();
   }
 
   @And("^user is on Mercari app top page")

@@ -1,3 +1,3 @@
-/Users/apple/Documents/GitHub/selenium-cucumber-maven/src/test/java/stepdefs/MercariPageSteps.java
-/Users/apple/Documents/GitHub/selenium-cucumber-maven/src/test/java/ApplicationPages/MercariPage.java
-/Users/apple/Documents/GitHub/selenium-cucumber-maven/src/test/java/runner/MercariPageRunner.java
+/Users/apple/Documents/GitHub/selenium-cucumber-maven/src/test/java/stepdefs/PageSteps.java
+/Users/apple/Documents/GitHub/selenium-cucumber-maven/src/test/java/ApplicationPages/HomePage.java
+/Users/apple/Documents/GitHub/selenium-cucumber-maven/src/test/java/runner/PageRunner.java
