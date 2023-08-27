@@ -10,11 +10,11 @@ import org.testng.annotations.BeforeClass;
 @CucumberOptions(tags = {"@Mercari_App"},
     glue = {"stepdefs"},
     plugin = {"pretty",
-        "html:target/cucumber-reports/mercaripage/cucumber-pretty",
-        "json:target/json-cucumber-reports/mercaripage/cukejson.json",
-        "testng:target/testng-cucumber-reports/mercaripage/cuketestng.xml"},
-    features = {"src/test/resources/features/MercariPage"})
-public class MercariPageRunner extends AbstractTestNGCucumberTests {
+        "html:target/cucumber-reports/homepage/cucumber-pretty",
+        "json:target/json-cucumber-reports/homepage/cukejson.json",
+        "testng:target/testng-cucumber-reports/homepage/cuketestng.xml"},
+    features = {"src/test/resources/features/Homepage"})
+public class PageRunner extends AbstractTestNGCucumberTests {
 
   @BeforeClass
   public static void before() {

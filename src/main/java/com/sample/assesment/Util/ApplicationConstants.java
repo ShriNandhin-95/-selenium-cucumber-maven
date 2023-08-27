@@ -2,8 +2,8 @@ package com.sample.assesment.Util;
 
 public class ApplicationConstants {
 
-  public static final String MERCARI_URL = "mercari.url";
-  public static final String MERCARI_BROWSER = "mercari.browser";
+  public static final String URL = "homepage.url";
+  public static final String BROWSER = "homepage.browser";
   public static final String PAGELOAD = "PageLoad";
   public static final String CLICKABLE = "Clickable";
   public static final String PRESENCE = "Presence";
@@ -23,22 +23,22 @@ public class ApplicationConstants {
   public static final String WAIT_FOR_ELEMENT_DISPLAY = "WaitForElementDisplay";
   public static final String WAIT_FOR_ELEMENT_CLICKABLE = "WaitForElementClickable";
   public static final String ELEMENNT_NOT_DISPLAYED = "ElementNotDisplayed";
-  public static final String SEARCH = "mercari.search";
-  public static final String CATEGORIES = "mercari.categories";
-  public static final String CATEGORY_ID_3 = "mercari.categoryById3";
-  public static final String CATEGORY_ID_5 = "mercari.categoryById5";
-  public static final String CATEGORY_ID_54 = "mercari.categoryById54";
-  public static final String CATEGORY_ID_72 = "mercari.categoryById72";
-  public static final String SEARCH_ID_674 = "mercari.searchById674";
-  public static final String SEARCH_ID_966 = "mercari.searchById966";
-  public static final String FIRST_SELECT_OPTION = "mercari.getFirstSelectedOption";
-  public static final String SECOND_SELECT_OPTION = "mercari.getSecondSelectOption";
-  public static final String CHECKBOX = "mercari.checkBox";
-  public static final String CHECKBOX_NAME = "mercari.checkBoxName";
-  public static final String BROWSING_HISTORY = "mercari.history";
-  public static final String BROWSING_HISTORY_LIST = "mercari.historyList";
-  public static final String BROWSING_HISTORY_LATEST = "mercari.historyLatest";
-  public static final String SEARCH_JAVASCRIPT = "mercari.searchJavaScript";
+  public static final String SEARCH = "homepage.search";
+  public static final String CATEGORIES = "homepage.categories";
+  public static final String CATEGORY_ID_3 = "homepage.categoryById3";
+  public static final String CATEGORY_ID_5 = "homepage.categoryById5";
+  public static final String CATEGORY_ID_54 = "homepage.categoryById54";
+  public static final String CATEGORY_ID_72 = "homepage.categoryById72";
+  public static final String SEARCH_ID_674 = "homepage.searchById674";
+  public static final String SEARCH_ID_966 = "homepage.searchById966";
+  public static final String FIRST_SELECT_OPTION = "homepage.getFirstSelectedOption";
+  public static final String SECOND_SELECT_OPTION = "homepage.getSecondSelectOption";
+  public static final String CHECKBOX = "homepage.checkBox";
+  public static final String CHECKBOX_NAME = "homepage.checkBoxName";
+  public static final String BROWSING_HISTORY = "homepage.history";
+  public static final String BROWSING_HISTORY_LIST = "homepage.historyList";
+  public static final String BROWSING_HISTORY_LATEST = "homepage.historyLatest";
+  public static final String SEARCH_JAVASCRIPT = "homepage.searchJavaScript";
 
   private ApplicationConstants() {
 

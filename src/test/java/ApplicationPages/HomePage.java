@@ -34,11 +34,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 @Slf4j
-public class MercariPage {
+public class HomePage {
 
   webconnector wc = new webconnector();
 
-  public MercariPage() {
+  public HomePage() {
     PageFactory.initElements(driver, this);
   }
 
@@ -51,7 +51,7 @@ public class MercariPage {
   }
 
   public void goToHomePage() {
-    driver.get(wc.getProperty(ApplicationConstants.MERCARI_URL));
+    driver.get(wc.getProperty(ApplicationConstants.URL));
 
     wc.setImplicitWaitTimeout(Duration.ofSeconds(40));
     wc.setPageLoadTimeOut(Duration.ofSeconds(40));
