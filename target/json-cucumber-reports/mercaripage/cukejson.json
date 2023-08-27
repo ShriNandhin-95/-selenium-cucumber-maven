@@ -1,0 +1,254 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-08-26T13:54:29.502Z",
+        "line": 4,
+        "name": "TC_01 Verify the Search conditions are set correctly in Mercari app",
+        "description": "",
+        "id": "search-conditions-are-set-correctly;tc-01-verify-the-search-conditions-are-set-correctly-in-mercari-app",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5850639082,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "browser window is open",
+            "match": {
+              "location": "MercariPageSteps.browser_window_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1379004874,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on Mercari app top page",
+            "match": {
+              "location": "MercariPageSteps.user_is_on_Mercari_app_top_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4792569031,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user selects the categories as specified for Books, Music \u0026 Games",
+            "match": {
+              "location": "MercariPageSteps.user_selects_the_category_as_specified()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2467990943,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify the search conditions on the left sidebar are set correctly",
+            "match": {
+              "location": "MercariPageSteps.verify_the_search_conditionns_on_the_left_sidebar_are_set_correctly()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 255858804,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "close the browser",
+            "match": {
+              "location": "MercariPageSteps.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Mercari_App"
+          }
+        ]
+      }
+    ],
+    "name": "Search conditions are set correctly",
+    "description": "",
+    "id": "search-conditions-are-set-correctly",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/MercariPage/mercari.feature",
+    "tags": [
+      {
+        "name": "@Mercari_App",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-08-26T13:54:44.257Z",
+        "line": 4,
+        "name": "TC_02 Search conditions are set correctly from the latest browsing history.",
+        "description": "",
+        "id": "search-conditions-are-set-correctly;tc-02-search-conditions-are-set-correctly-from-the-latest-browsing-history.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3240024387,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "browser window is open",
+            "match": {
+              "location": "MercariPageSteps.browser_window_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1204627874,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is on Mercari app top page",
+            "match": {
+              "location": "MercariPageSteps.user_is_on_Mercari_app_top_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5662296203,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user selects the categories as specified for baby kids",
+            "match": {
+              "location": "MercariPageSteps.user_selects_the_category_as_specified_for_baby_kids()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4571631665,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user selects the categories as specified for Books, Music \u0026 Games",
+            "match": {
+              "location": "MercariPageSteps.user_selects_the_category_as_specified()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3920207628,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify the 2 browsing history is showing correctly and click on the latest",
+            "match": {
+              "location": "MercariPageSteps.verify_the_browsing_history_is_showing_correctly()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 507784125,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verify the search conditions on the left sidebar are set correctly",
+            "match": {
+              "location": "MercariPageSteps.verify_the_search_conditionns_on_the_left_sidebar_are_set_correctly()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 691746735,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user sends javascript in the search bar and search with the keyword",
+            "match": {
+              "location": "MercariPageSteps.user_sends_javascript_in_the_search_bar_and_search_with_the_keyword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2036207970,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user is on Mercari app top page",
+            "match": {
+              "location": "MercariPageSteps.user_is_on_Mercari_app_top_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2908057133,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "verify the 3 browsing history is showing correctly",
+            "match": {
+              "location": "MercariPageSteps.verify_the_3_browsing_history_is_showing_correctly()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 255174745,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "close the browser",
+            "match": {
+              "location": "MercariPageSteps.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Mercari_App"
+          }
+        ]
+      }
+    ],
+    "name": "Search conditions are set correctly",
+    "description": "",
+    "id": "search-conditions-are-set-correctly",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/MercariPage/mercari_navigation.feature",
+    "tags": [
+      {
+        "name": "@Mercari_App",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

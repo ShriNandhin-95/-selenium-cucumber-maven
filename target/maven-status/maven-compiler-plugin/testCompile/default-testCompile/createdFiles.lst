@@ -1,0 +1,3 @@
+ApplicationPages/MercariPage.class
+runner/MercariPageRunner.class
+stepdefs/MercariPageSteps.class
