@@ -1,0 +1,45 @@
+HELP.md
+
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+/target/
+/bin/
+**/target/**
+**/bin/**
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
+/target/classes/
+/target/maven-archiver/
+/target/maven-status/
+/target/uio-0.0.1-SNAPSHOT.jar.original
+/target/test-classes/
+/target/jacoco.exec
+/target/site/
+/target/surefire-reports/
+
+
